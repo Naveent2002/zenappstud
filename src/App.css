@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.task-manager {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.add-task {
+  margin-bottom: 20px;
+}
+
+.add-task input,
+.add-task textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.add-task button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.add-task button:disabled {
+  background-color: #ccc;
+}
+
+.task-lists {
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-list {
+  width: 30%;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.task-list h2 {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.task {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.task h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.task p {
+  font-size: 14px;
+  color: #666;
+}
+
+.task-actions {
+  margin-top: 10px;
+}
+
+.task-actions button {
+  padding: 5px 10px;
+  margin-right: 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.task-actions button:last-child {
+  background-color: #dc3545;
+}
+
+
+
+
+
+
+/* src/styles/App.css */
+
+.app-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
